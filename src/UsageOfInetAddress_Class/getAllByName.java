@@ -17,7 +17,6 @@ public class getAllByName {
 
             for (InetAddress i : addresses)
                System.out.println(i);
-                // }
 
         } catch (UnknownHostException e) {
             e.printStackTrace();
