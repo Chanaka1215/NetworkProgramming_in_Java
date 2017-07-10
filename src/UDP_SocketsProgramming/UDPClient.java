@@ -66,3 +66,6 @@ public class UDPClient {
         }
     }
 }
+
+
+//Client received data : HELLO CLIENT HOW ARE YOU?  FROM SERVER

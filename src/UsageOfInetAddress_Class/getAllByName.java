@@ -11,12 +11,14 @@ public class getAllByName {
 
         try {
            InetAddress[] addresses = InetAddress.getAllByName("www.google.com");
+
 //            for(int i=0;i<addresses.length;i++){
 //                System.out.println(addresses[i].getHostName() +" - "+addresses[i].getHostAddress());
 //            }
 
             for (InetAddress i : addresses)
-               System.out.println(i);
+                System.out.println(i);
+//                  System.out.println(i.getHostName() +" - "+i.getHostAddress());
 
         } catch (UnknownHostException e) {
             e.printStackTrace();
@@ -28,4 +30,12 @@ public class getAllByName {
 }
 
 
-//www.google.com/216.58.203.228
+/***
+ www.google.com/74.125.68.106
+ www.google.com/74.125.68.147
+ www.google.com/74.125.68.99
+ www.google.com/74.125.68.105
+ www.google.com/74.125.68.104
+ www.google.com/74.125.68.103
+ */
+

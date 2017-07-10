@@ -71,3 +71,13 @@ public class UDPServer {
 
     }
 }
+
+
+/*
+
+Server received Data : Hello Server, How are you? from client
+Sender Host Name : 127.0.0.1
+Sender Host Address : 127.0.0.1
+Sender port : 61738
+Message Length : 38
+ */
