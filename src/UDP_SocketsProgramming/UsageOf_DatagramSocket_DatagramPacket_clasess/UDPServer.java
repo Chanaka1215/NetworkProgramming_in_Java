@@ -1,4 +1,4 @@
-package UDP_SocketsProgramming;
+package UDP_SocketsProgramming.UsageOf_DatagramSocket_DatagramPacket_clasess;
 
 import java.io.IOException;
 import java.net.*;
