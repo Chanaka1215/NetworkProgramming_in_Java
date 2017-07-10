@@ -5,7 +5,12 @@ import java.net.*;
 import java.util.Date;
 
 /**
- * Created by Chanaka Fernando on 7/10/2017.
+ * Created by       : Chanaka Fernando.
+ * Date             : Tue, 7/11/2017 .
+ * Email            : nuwan.c.fernando@gmail.com.
+ * LinkedIn         : https://www.linkedin.com/in/n-chanaka-fernando
+ * Blongs to Project: NetworkProgramming_Java.
+ * Package          : UDP_SocketsProgramming.UsageOfMulticastSocket.
  */
 public class UDP_MulticastServer {
     private final static int MCAST_PORT=3000;
