@@ -16,6 +16,7 @@ public class UDP_MulticastServer {
     private final static int MCAST_PORT=3000;
     private final static String MCAST_GROUP_IP="224.0.0.1"; //127.0.0.1
     public static void main(String[] args) {
+
         try {
             //create the socket bu we didnot bind it beaseause we are only going to send data
             DatagramSocket serverSocket = new DatagramSocket();

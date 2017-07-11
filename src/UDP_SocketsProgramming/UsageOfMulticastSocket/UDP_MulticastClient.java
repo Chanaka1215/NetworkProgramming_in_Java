@@ -33,6 +33,8 @@ public class UDP_MulticastClient {
 
             // receive data
             clientSocket.receive(packetIn);
+//            clientSocket.setTimeToLive(5); //
+//            System.out.println(clientSocket.getTimeToLive());
 
             // Display the received data
             String receivedString = new String(packetIn.getData());
