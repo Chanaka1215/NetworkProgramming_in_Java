@@ -27,7 +27,7 @@ public class UDPClient {
             byte[] bufferSendData    = new byte[1024];  // for outgoing data
 
             // data to send to the server
-            String message = "Hello Server, How are yoy? from client";
+            String message = "Hello Server, How are you? from client";
             bufferSendData =message.getBytes();
 
             // create a DatagramPacket object for wrapping outgoind datagram packets
